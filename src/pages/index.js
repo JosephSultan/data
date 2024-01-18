@@ -84,7 +84,7 @@ const Page = () => (
               chartSeries={[
                 {
                   name: 'This year',
-                  data: [18, 16, 5, 8, 3, 14, 14, 16, 17, 19, 18, 20]
+                  data: [78, 16, 5, 8, 3, 14, 14, 16, 17, 19, 18, 20]
                 },
                 {
                   name: 'Last year',
