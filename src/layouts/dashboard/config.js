@@ -13,7 +13,7 @@ export const items = [
     )
   },
   {
-    title: 'Customers',
+    title: 'Top Closers',
     path: '/customers',
     icon: (
       <SvgIcon fontSize="small">
@@ -21,6 +21,14 @@ export const items = [
       </SvgIcon>
     )
   },
-
+  {
+    title: 'Least Closers',
+    path: '/customers',
+    icon: (
+      <SvgIcon fontSize="small">
+        <UsersIcon />
+      </SvgIcon>
+    )
+  },
   
 ];
