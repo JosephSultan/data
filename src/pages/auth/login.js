@@ -25,8 +25,8 @@ const Page = () => {
   const [method, setMethod] = useState('email');
   const formik = useFormik({
     initialValues: {
-      email: 'demo@devias.io',
-      password: 'Password123!',
+      email: 'Demo@dataowl.netlify.app',
+      password: 'IntercomDataOwlDemo_123!',
       submit: null
     },
     validationSchema: Yup.object({
