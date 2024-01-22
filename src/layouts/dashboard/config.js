@@ -1,5 +1,7 @@
 import ChartBarIcon from '@heroicons/react/24/solid/ChartBarIcon';
-import UsersIcon from '@heroicons/react/24/solid/UsersIcon';
+import ArrowTrendingUpIcon from '@heroicons/react/24/solid/ArrowTrendingUpIcon';
+import ArrowTrendingDownIcon from '@heroicons/react/24/solid/ArrowTrendingDownIcon';
+import FaceSmileIcon from '@heroicons/react/24/solid/FaceSmileIcon';
 import { SvgIcon } from '@mui/material';
 
 export const items = [
@@ -13,11 +15,20 @@ export const items = [
     )
   },
   {
+    title: 'CSAT',
+    path: '/',
+    icon: (
+      <SvgIcon fontSize="small">
+        <FaceSmileIcon />
+      </SvgIcon>
+    )
+  },
+  {
     title: 'Top Closers',
     path: '/customers',
     icon: (
       <SvgIcon fontSize="small">
-        <UsersIcon />
+        <ArrowTrendingUpIcon />
       </SvgIcon>
     )
   },
@@ -26,7 +37,7 @@ export const items = [
     path: '/customers',
     icon: (
       <SvgIcon fontSize="small">
-        <UsersIcon />
+        <ArrowTrendingDownIcon />
       </SvgIcon>
     )
   },
