@@ -71,7 +71,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Login | Devias Kit
+          Login | Data Owl
         </title>
       </Head>
       <Box
@@ -193,7 +193,7 @@ const Page = () => {
                   sx={{ mt: 3 }}
                 >
                   <div>
-                    You can use <b>demo@devias.io</b> and password <b>Password123!</b>
+                    You can use <b>Demo@dataowl.netlify.app</b> and password <b>IntercomDataOwlDemo_123!</b>
                   </div>
                 </Alert>
               </form>
