@@ -142,21 +142,7 @@ export const SideNav = (props) => {
           >
              
           </Typography>
-          <Box
-            sx={{
-              display: 'flex',
-              mt: 2,
-              mx: 'auto',
-              width: '160px',
-              '& img': {
-                width: '100%'
-              }
-            }}
-          >
-           <img  alt="Go to pro"
-        src="/assets/devias-kit-pro.png" 
-          />  
-          </Box>
+       
           <Button
             component="a"
             endIcon={(
