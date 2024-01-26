@@ -93,7 +93,7 @@ export const Layout = (props) => {
               sx={{ mb: 3 }}
               variant="subtitle1"
             >
-              A real time dashboards for your CS teams
+              A real time dashboards for your CS teams 
             </Typography>
             <img
               alt=""
